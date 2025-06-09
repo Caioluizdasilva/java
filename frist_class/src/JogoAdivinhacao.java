@@ -5,7 +5,7 @@ public class JogoAdivinhacao {
 
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
-        int numeroGerado = new Random().nextInt(100); 
+        int numeroGerado = new Random().nextInt(100);
         int tentativas = 0;
         int numeroDigitado = 0;
 
