@@ -1,19 +1,20 @@
 public class Principal {
 
     public static void main(String[] args) {
-        Filme favorito = new Filme();
+        Filme meuFilme = new Filme();
 
-        favorito.nome = "Top Gun";
-        favorito.anoDeLancamento = 1999;
-        favorito.duracaoEmMinutos = 135;
-        favorito.incluidoNoPlano = true;
+        meuFilme.nome = "Top Gun";
+        meuFilme.anoDeLancamento = 1999;
+        meuFilme.duracaoEmMinutos = 135;
+        meuFilme.incluidoNoPlano = true;
 
-        favorito.exibeFichaTecnica();
-        favorito.avalia(9);
-        favorito.avalia(8);
-        favorito.avalia(9);
+        meuFilme.exibeFichaTecnica();
+        meuFilme.avalia(9);
+        meuFilme.avalia(8);
+        meuFilme.avalia(9);
 
-        System.out.println("Média de avaliações do filme: " +favorito.pegaMedia());
+        System.out.println("Média de avaliações do filme: " +meuFilme.pegaMedia());
+
     }
 
 }
