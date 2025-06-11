@@ -1,26 +1,11 @@
 public class Filme {
+   private String diretor;
 
-   String nome;
-   int anoDeLancamento;
-   int duracaoEmMinutos;
-   boolean incluidoNoPlano;
-   private double somaDasAvaliacoes;
-   private int totalDeAvaliacoes;
-
-   void exibeFichaTecnica() {
-      System.out.println("Nome do filme: " +nome);
-      System.out.println("Ano de lançamento: " +anoDeLancamento);
-      System.out.println("Duração em Minutos: " +duracaoEmMinutos);
-      System.out.println("Incluido no Plano: " +incluidoNoPlano);
+   public String getDiretor() {
+      return diretor;
    }
 
-   void avalia(double nota) {
-      somaDasAvaliacoes += nota;
-      totalDeAvaliacoes++;
+   public void setDiretor(String diretor) {
+      this.diretor = diretor;
    }
-
-   double pegaMedia() {
-      return somaDasAvaliacoes / totalDeAvaliacoes;
-   }
-
 }

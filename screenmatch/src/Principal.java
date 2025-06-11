@@ -1,20 +1,20 @@
 public class Principal {
-
     public static void main(String[] args) {
         Filme meuFilme = new Filme();
+        meuFilme.setNome("O poderoso chefão");
+        meuFilme.setAnoDeLancamento(1970);
+        meuFilme.setDuracaoEmMinutos(180);
 
-        meuFilme.nome = "Top Gun";
-        meuFilme.anoDeLancamento = 1999;
-        meuFilme.duracaoEmMinutos = 135;
-        meuFilme.incluidoNoPlano = true;
 
         meuFilme.exibeFichaTecnica();
-        meuFilme.avalia(9);
         meuFilme.avalia(8);
-        meuFilme.avalia(9);
-
-        System.out.println("Média de avaliações do filme: " +meuFilme.pegaMedia());
+        meuFilme.avalia(5);
+        meuFilme.avalia(10);
+        System.out.println("Total de avaliações: " + meuFilme.getTotalDeAvaliacoes());
+        System.out.println(meuFilme.pegaMedia());
+        //meuFilme.somaDasAvaliacoes = 10;
+        //meuFilme.totalDeAvaliacoes = 1;
+        //System.out.println(meuFilme.pegaMedia());
 
     }
-
 }
