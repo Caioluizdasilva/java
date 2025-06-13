@@ -1,4 +1,4 @@
-package br.com.alura.sreencmatch.calculos;
+package br.com.alura.screenmatch.calculos;
 
 public class CalculadoraDeTempo {
   private int numero;
