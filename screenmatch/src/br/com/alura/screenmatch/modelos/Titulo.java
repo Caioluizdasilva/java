@@ -1,5 +1,4 @@
 public class Titulo {
-    public class Filme {
         private String nome;
         private int anoDeLancamento;
         private boolean incluidoNoPlano;
@@ -44,7 +43,7 @@ public class Titulo {
         }
 
         public void exibeFichaTecnica(){
-            System.out.println("Nome do filme: " + nome);
+            System.out.println("Nome: " + nome);
             System.out.println("Ano de lançamento: " + anoDeLancamento);
         }
 
