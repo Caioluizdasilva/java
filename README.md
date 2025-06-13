@@ -21,7 +21,7 @@ The code in this repository reflects my learning process with Java. Here you’l
 
 ## 🛠️ Technologies Used
 
-<div align="center">
+<div>
   <a href="#"><img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" alt="Java"/></a>
   <a href="#"><img src="https://img.icons8.com/fluency/48/000000/intellij-idea.png" alt="IntelliJ IDEA"/></a>
 </div>
