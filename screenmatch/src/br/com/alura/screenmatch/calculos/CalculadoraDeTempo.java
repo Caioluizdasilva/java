@@ -1,31 +1,26 @@
 package br.com.alura.screenmatch.calculos;
 
+import br.com.alura.screenmatch.modelos.Filme;
+import br.com.alura.screenmatch.modelos.Serie;
+import br.com.alura.screenmatch.modelos.Titulo;
+
 public class CalculadoraDeTempo {
-  private int numero;
-  private String nome;
-  private Serie serie;
+    private int tempoTotal;
 
-    public int getNumero() {
-        return numero;
+    public int getTempoTotal() {
+        return this.tempoTotal;
     }
 
-    public void setNumero(int numero) {
-        this.numero = numero;
-    }
+//    public void inclui(Filme f) {
+//        this.tempoTotal += f.getDuracaoEmMinutos();
+//    }
+//
+//    public void inclui(Serie s) {
+//        this.tempoTotal += s.getDuracaoEmMinutos();
+//    }
 
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public Serie getSerie() {
-        return serie;
-    }
-
-    public void setSerie(Serie serie) {
-        this.serie = serie;
+    public void inclui(Titulo titulo) {
+        System.out.println("Adicionando duração em minutos de " + titulo);
+        this.tempoTotal += titulo.getDuracaoEmMinutos();
     }
 }
