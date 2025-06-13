@@ -1,4 +1,4 @@
-<h1 align="center">☕ Java Project</h1>
+<h1> Java Projects</h1>
 
 <p style="font-family: 'Arial', sans-serif; color: #555;">
   This repository contains exercises and projects developed during my Java studies based on courses from the <strong>Alura</strong> platform. The main goal is to strengthen my knowledge of syntax, logic, data structures, and object-oriented programming with a focus on clean code and good practices.
